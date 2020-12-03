@@ -17,3 +17,21 @@ print(minjae.age)
 
 minjae.name = "minjae"
 print(minjae.name)
+
+// data type
+
+// Bool Int, Uint, Float, Double, Character, String
+
+var someBool: Bool = true
+
+// someBool = 1 <= error
+someBool = false
+
+var someInt : Int = 100
+
+// someInt = 100.1 <= error
+someInt = 200
+
+var someFloat: Float = 3.14
+someFloat = 100
+print("someFloat : \(someFloat)")
